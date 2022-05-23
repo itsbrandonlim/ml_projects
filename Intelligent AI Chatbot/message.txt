@@ -1,0 +1,54 @@
+```
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hi there", "anyone here?", "hey", "hola", "Good day", "Hello", "Hi"],
+    "responses": ["Hello", "im here, how can i help you", "hey there", "Hi there!", "Nice to meet you!"],
+    "context": [""]
+    },
+    {"tag": "intro",
+     "patterns": ["What can you do?", "Hi, can you help me?", "I need help", "I need assistance", "can you assist me?", "What should I do?", "What can I do?"],
+     "responses": ["Hi there, my name is [nama] here are the things i can do for you", "Hi im [nama], here are the things that i can help you with", "Hello, im [nama] and i will be your assistant"],
+     "context": [""]
+    },
+    {"tag": "no_answer",
+     "patterns": [""],
+     "responses": ["I'm sorry, could you repeat that?", "Pardon?", "I didn't understand that, could you repeat that?", "Sorry, could you repeat that one more time?"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thank you for your help", "Thanks for helping", "Thank you for your assistance", "Thank you", "I appreciate it", "Appreciate for your help"],
+     "responses": ["Glad I could help, please ask if you need anything else", "Glad I could be of assistance", "No problemo", "Your welcome! If you need anything else feel free to ask"],
+     "context": [""]
+    },
+    {"tag": "ask_products",
+     "patterns": ["What do you sell?", "What do you offer?", "All products", "What are your products?", "Can I see your products?", "What can I buy?", "What are you selling here?"],
+     "responses": ["Here at CartMax we sell home appliances for all your needs at home. Our full catalogue:"],
+     "context": [""]
+    },
+    {"tag": "ask_platform",
+     "patterns": ["How to order?", "Are you on Shopee?", "Are you on Tokopedia?", "How can I order?", "Do you have offline shop?", "Where can I buy that?", "What platforms are you on?"],
+     "responses": ["You can find us an place an order on Shopee, Tokopedia, and Lazada at @ElectroCartMax."],
+     "context": [""]
+    },
+    {"tag": "complain",
+     "patterns": ["I want to place a complaint", "I would like to file a complaint", "I want to complain", "I am not satisfied", "I want to complain about a product", "I wish to make a complaint"],
+     "responses": ["We're so sorry hear that. Please follow the instructions to place a formal complaint."],
+     "context": [""]
+    },
+    {"tag": "refund",
+     "patterns": ["Can I have a refund?", "Is there any way, so i can have a refund?", "I'd like to get a refund, please", "I want a refund", "Refund"],
+     "responses": ["Sure, please follow the instructions", "Just follow the instructions", "Yes, you can get a refund by following the instructions below:"],
+     "context": [""]
+    },
+    {"tag": "tracking",
+     "patterns": ["Can i track product shipment?", "When will my product arrive?", "What is the status of my product shipment?"],
+     "responses": ["Yes you can! just choose one of the transactions", "Sure, which transaction did you want to track?", "Here are the list of the product that are still on the way"],
+     "context": [""]
+    },
+    {"tag": "promo",
+     "patterns": ["Can you show me the promos?", "Is there any discount for the product today?", "Are there any promotions?", "Any discounts?"],
+     "responses": ["Here is the list of the promotions for today:", "Below is the list of the products on sale:", "Here are few offers you can't miss:"],
+     "context": [""]
+    }
+]}
+```
