@@ -9,11 +9,6 @@
      "responses": ["Hi there, my name is [nama] here are the things i can do for you", "Hi im [nama], here are the things that i can help you with", "Hello, im [nama] and i will be your assistant"],
      "context": [""]
     },
-    {"tag": "no_answer",
-     "patterns": [""],
-     "responses": ["I'm sorry, could you repeat that?", "Pardon?", "I didn't understand that, could you repeat that?", "Sorry, could you repeat that one more time?"],
-     "context": [""]
-    },
     {"tag": "thanks",
      "patterns": ["Thank you for your help", "Thanks for helping", "Thank you for your assistance", "Thank you", "I appreciate it", "Appreciate for your help"],
      "responses": ["Glad I could help, please ask if you need anything else", "Glad I could be of assistance", "No problemo", "Your welcome! If you need anything else feel free to ask"],
