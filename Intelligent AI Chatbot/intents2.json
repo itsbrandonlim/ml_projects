@@ -5,7 +5,7 @@
     "context": [""]
     },
     {"tag": "intro",
-     "patterns": ["What can you do?", "Hi, can you help me?", "I need help", "I need assistance", "can you assist me?", "What should I do?", "What can I do?"],
+     "patterns": ["What can you do?", "Hi, can you help me?", "I need help", "can you assist me?", "What can I do?"],
      "responses": ["Hi there, my name is [nama] here are the things i can do for you", "Hi im [nama], here are the things that i can help you with", "Hello, im [nama] and i will be your assistant"],
      "context": [""]
     },
