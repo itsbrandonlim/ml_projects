@@ -5,7 +5,7 @@
     "context": [""]
     },
     {"tag": "intro",
-     "patterns": ["What can you do?", "Hi, can you help me?", "I need help", "can you assist me?", "What can I do?"],
+     "patterns": ["What can you do?", "Hi, can you help me?", "I need help", "can you assist me?", "Who are you?", "What do you do?", "Are you a bot?", "Can I talk to you", "What can I do?"],
      "responses": ["Hi there, my name is [nama] here are the things i can do for you", "Hi im [nama], here are the things that i can help you with", "Hello, im [nama] and i will be your assistant"],
      "context": [""]
     },
@@ -15,17 +15,17 @@
      "context": [""]
     },
     {"tag": "ask_products",
-     "patterns": ["What do you sell?", "What do you offer?", "All products", "What are your products?", "Can I see your products?", "What can I buy?", "What are you selling here?"],
+     "patterns": ["What do you sell?", "What do you offer?", "All products", "What are your products?", "Can I see your products?", "What can I buy?", "What can I order", "What are you selling here?"],
      "responses": ["Here at CartMax we sell home appliances for all your needs at home. Our full catalogue:"],
      "context": [""]
     },
     {"tag": "ask_platform",
-     "patterns": ["How to order?", "Are you on Shopee?", "Are you on Tokopedia?", "How can I order?", "Do you have offline shop?", "Where can I buy that?", "What platforms are you on?"],
+     "patterns": ["How to order?", "Are you on Shopee?", "Are you on Tokopedia?", "How can I order?", "Do you have offline shop?", "What platforms are you on?", "Where can I buy order?", "I want to order", "I would like to order", "I want to place an order", "I would like to place an order"],
      "responses": ["You can find us an place an order on Shopee, Tokopedia, and Lazada at @ElectroCartMax."],
      "context": [""]
     },
     {"tag": "complain",
-     "patterns": ["I want to place a complaint", "I would like to file a complaint", "I want to complain", "I am not satisfied", "I want to complain about a product", "I wish to make a complaint"],
+     "patterns": ["I want to place a complaint", "I would like to file a complaint", "I want to complain", "I am not satisfied", "I want to complain about a product", "I wish to make a complaint", "How to complain", "How to file a complaint", "How to make a complaint"],
      "responses": ["We're so sorry hear that. Please follow the instructions to place a formal complaint."],
      "context": [""]
     },
